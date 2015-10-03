@@ -172,7 +172,7 @@ if (@$_GET['dhcp']=='restart'){
   </head>
   <body>
     <table style="margin: 0 auto">
-      <tr><th colspan="5">Register machines on the network</th></tr>
+      <tr><th colspan="5">Network</th></tr>
       <tr><td></td><td><button onclick="window.location='?dhcp=restart'">Restart DHCP</button></td><td></td><td></td><td></td></tr>
       <tr><td colspan="5"><pre><?= $log ?></pre></td></tr>
       <tr>
